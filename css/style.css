@@ -1,85 +1,63 @@
-.fondo {
-  background-image: url("https://thumbs.dreamstime.com/b/foto-vertical-varios-alimentos-en-la-mesa-de-caf%C3%A9-comida-italiana-americana-chatarra-y-para-picar-cuadro-completo-vista-superior-265379780.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-
+/* 🔹 Fondo de toda la página */
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  padding: 20px;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url("https://thumbs.dreamstime.com/b/foto-vertical-varios-alimentos-en-la-mesa-de-caf%C3%A9-comida-italiana-americana-chatarra-y-para-picar-cuadro-completo-vista-superior-265379780.jpg"); /* puedes cambiarla */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
 }
 
-
-
-
- .cuadro {
-  background: white;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 10px;
- }
-
-
-
-
+/* 🔹 Título principal */
 h1 {
-  font-family: Arial;
-  background: #f4f4f4;
-  margin: 20px;
-  text-align: center;
-  color: #ffd500;
+    text-align: center;
+    color: #ffff00;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-shadow: 0 0 10px #ffbb00, 0 0 20px #000000, 0 0 30px #ff0000, 0 0 40px #ff0000;
 }
 
+/* 🔹 Subtítulos */
+h2 {
+    color: #ffd900;
+    border-bottom: 2px solid #ffff00;
+    padding-bottom: 5px;
+}
+
+/* 🔹 Secciones */
+h3 {
+    color: #ff0000;
+    margin-top: 20px;
+}
+
+/* 🔹 Cuadro principal */
 .box {
-  background: white;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* fondo oscuro transparente */
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
 }
 
-.label {
-  font-weight: bold;
+/* 🔹 Imágenes más pequeñas */
+img {
+    width: 150px;       /* tamaño reducido */
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
 }
 
-.button {
-  padding: 10px;
-  background: #ffd500;
-  color: white;
-  border: none;
-  cursor: pointer;
+/* 🔹 Checkboxes y texto */
+input[type="checkbox"] {
+    margin-right: 10px;
 }
 
-.resultado {
-  font-size: 18px;
-  color: green;
+/* 🔹 Espaciado general */
+br {
+    margin-bottom: 10px;
 }
-
-.textarea {
-  padding: 10px;
-  background: #ffd500;
-  color: black;
-  border: black;
-  cursor: pointer;
-}
-
-
-
-
-.img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20px;
-  height: auto; /* mantiene proporción */
-}
-
