@@ -1,0 +1,85 @@
+.fondo {
+  background-image: url("https://thumbs.dreamstime.com/b/foto-vertical-varios-alimentos-en-la-mesa-de-caf%C3%A9-comida-italiana-americana-chatarra-y-para-picar-cuadro-completo-vista-superior-265379780.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+ .cuadro {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+ }
+
+
+
+
+h1 {
+  font-family: Arial;
+  background: #f4f4f4;
+  margin: 20px;
+  text-align: center;
+  color: #ffd500;
+}
+
+.box {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px;
+  background: #ffd500;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.resultado {
+  font-size: 18px;
+  color: green;
+}
+
+.textarea {
+  padding: 10px;
+  background: #ffd500;
+  color: black;
+  border: black;
+  cursor: pointer;
+}
+
+
+
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20px;
+  height: auto; /* mantiene proporción */
+}
+
