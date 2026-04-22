@@ -1,9 +1,9 @@
 /* 🔹 Fondo de toda la página */
 body {
     font-family: Arial, sans-serif;
-    background-image: url("https://thumbs.dreamstime.com/b/foto-vertical-varios-alimentos-en-la-mesa-de-caf%C3%A9-comida-italiana-americana-chatarra-y-para-picar-cuadro-completo-vista-superior-265379780.jpg"); /* puedes cambiarla */
+    background-image: url("https://media.istockphoto.com/id/926731032/vector/abstract-low-poly-triangular-modern-geometric-background.jpg?s=170667a&w=0&k=20&c=g4TJSrY9ug7DVGJL97CfxZc4UvapkrQEk2C-IRs6m88="); /* puedes cambiarla */
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     margin: 0;
     padding: 20px;
@@ -36,7 +36,7 @@ h3 {
 /* 🔹 Cuadro principal */
 .box {
     background-color: rgba(0, 0, 0, 0.7); /* fondo oscuro transparente */
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 20px;
     max-width: 800px;
@@ -50,6 +50,11 @@ img {
     height: auto;
     border-radius: 10px;
     margin: 10px 0;
+    margin-right: 0px;
+
+    display: block;
+    margin-left: auto;
+    
 }
 
 /* 🔹 Checkboxes y texto */
@@ -59,5 +64,5 @@ input[type="checkbox"] {
 
 /* 🔹 Espaciado general */
 br {
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
