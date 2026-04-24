@@ -26,6 +26,7 @@ h2 {
     color: #ffd900;
     border-bottom: 2px solid #ffff00;
     padding-bottom: 5px;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #000000, 0 0 30px #ff0000, 0 0 40px #ff0000;
 }
 
 
@@ -40,6 +41,8 @@ h3 {
     color: #ffd900;
     text-shadow: 0 0 10px #ffa600, 0 0 20px #ffa600, 0 0 30px #00ff00, 0 0 40px #00ff00;
     margin-top: 20px;
+
+    
 }
 
 
